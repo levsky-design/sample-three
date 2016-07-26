@@ -1,0 +1,511 @@
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+h1 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 0 5px 0;
+}
+
+#logo {
+	margin-top: 20px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+#foto {
+	background-image: linear-gradient(rgba(65, 64, 67, 0.5), rgba(65, 64, 67, 0.5)), url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+	margin-top: 20px;
+}
+
+#login {
+    margin: 35px 0 0 0;
+    color: #fff;
+}
+
+.login_text {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+	font-weight: 300;
+}
+
+#login input[type="text"] {
+	font-family: 'Open Sans', Arial, sans-serif;
+    width: 150px;
+    color: #414043;
+    background-color: #fff;
+    font-size: 11px;
+    padding: 4px;
+    text-align: left;
+    border-style: hidden;
+    border-color: #EFEFEF;
+    border-width: thin;
+    margin: 5px 0 15px 0;
+    outline: none;
+}
+
+#login input[type="password"] {
+	font-family: 'Open Sans', Arial, sans-serif;
+    width: 150px;
+    color: #414043;
+    background-color: #fff;
+    font-size: 11px;
+    padding: 4px;
+    text-align: left;
+    border-style: hidden;
+    border-color: #EFEFEF;
+    border-width: thin;
+    margin: 5px 0 15px 0;
+    outline: none;
+}
+
+#tel input[type="email"] {
+    height: 40px;
+	color: #24282D; 
+	background-color: #fff;
+	font-size: 12px;
+	padding: 4px;
+	text-align: left;
+    border-radius: 0;
+	border-style: solid;
+	border-color: #24282D;
+	border-width: 1px;
+    margin: 7px 0 20px 0;
+    outline: none;
+    box-shadow: none;
+}
+
+#tresc_sms input[type="text"] {
+    height: 500px;
+	color: #24282D; 
+	background-color: #fff;
+	font-size: 12px;
+	padding: 4px;
+	text-align: left;
+    border-radius: 0;
+	border-style: solid;
+	border-color: #24282D;
+	border-width: 1px;
+    margin: 7px 0 20px 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.button_login {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 8px 14px 8px 14px;
+    color: #414043;
+    background-color: #fff;
+    border: solid white 1px;
+    float: left;
+    font-style: normal;
+}
+
+.button_login:hover {
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+#copyright {
+	font-family: 'Open Sans', Arial, sans-serif;
+    color: #414043;
+    margin: 20px auto;
+    text-align: center;
+    width: 350px;
+    font-size: 10px;
+}
+
+#copyright a {
+    color: #414043;
+}
+
+#error_login {
+    display: inline-block;
+    font-size: 13px;
+    color: #8C3333;
+    text-align: center;
+    float: left;
+    margin: 0 20px;
+    line-height: 35px;
+}
+
+.button_logout {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+    outline: none;
+}
+
+.button_logout:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+}
+
+.button_start {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+    outline: none;
+}
+
+.button_start:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+}
+
+#logout {
+    margin-top: 47px;
+    float: right;
+	display: inline-block;
+}
+
+#step {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 50px;
+    line-height: 20px;
+	margin-left: 10px;
+    color: #414043;
+}
+
+.button_type {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+    width: 230px;
+    height: 70px;
+	text-align: left;
+	font-weight: 700;
+    outline: none;
+}
+
+.button_type:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+}
+
+
+#buttons {
+	margin: 60px auto 20px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+#tel input[type="text"] {
+    height: 40px;
+	color: #24282D; 
+	background-color: #fff;
+	font-size: 12px;
+	padding: 4px;
+	text-align: left;
+    border-radius: 0;
+	border-style: solid;
+	border-color: #24282D;
+	border-width: 1px;
+    margin: 7px 0 20px 0;
+    outline: none;
+    box-shadow: none;
+}
+
+#form_sms textarea {
+    height: 90px;
+	color: #24282D; 
+	background-color: #fff;
+	font-size: 12px;
+	padding: 4px;
+	text-align: left;
+    border-radius: 0;
+	border-style: solid;
+	border-color: #24282D;
+	border-width: 1px;
+    margin: 7px 0 20px 0;
+    outline: none;
+    box-shadow: none;
+}
+
+#form_sms input[type="text"] {
+    height: 40px;
+	color: #24282D; 
+	background-color: #fff;
+	font-size: 12px;
+	padding: 4px;
+	text-align: left;
+    border-radius: 0;
+	border-style: solid;
+	border-color: #24282D;
+	border-width: 1px;
+    margin: 7px 0 20px 0;
+    outline: none;
+    box-shadow: none;
+}
+
+#form_sms select {
+    height: 40px;
+	color: #24282D; 
+	background-color: #fff;
+	font-size: 12px;
+	padding: 4px;
+	text-align: left;
+    border-radius: 0;
+	border-style: solid;
+	border-color: #24282D;
+	border-width: 1px;
+    margin: 7px 0 20px 0;
+    outline: none;
+    box-shadow: none;
+}
+
+label {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #24282D;
+}
+
+#form_sms {
+    margin-top: 50px;
+}
+
+a.button_wstecz {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+    float: left;
+}
+
+a.button_wstecz:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.buttonsubmit {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+    float: right;
+    outline: none;
+}
+
+button.buttonsubmit:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.button_wstecz2 {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+}
+
+a.button_wstecz2:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.button_pobierz {
+	font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 8px 14px 8px 14px;
+    color: #fff;
+    background-color: #24282D;
+    border: solid white 1px;
+    font-style: normal;
+    margin-left: -15px;
+    outline: none;
+}
+
+a.button_pobierz:hover {
+    color: #24282D;
+    background-color: #fff;
+    border: solid #24282D 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#buttons_form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#nr_not_title {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #24282D;
+    margin-top: 50px;
+}
+
+#nr_not {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #24282D;
+    margin-bottom: 40px;
+}
+
+#button_wstecz_row {
+    margin-bottom: 40px;
+}
+
+#status_not {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+#nr_not_title {
+    margin-bottom: 0;
+}
+
+#status_not table th {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 800;
+    width: 110px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #24282D;
+}    
+
+#status_not table td {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    width: 200px;
+    text-align: center;
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+#status_not table tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+#heartbeat {
+    margin-top: 30px;
+    text-align: right;
+    height: 40px;
+}
+
+.ok {
+    display: inline-block;
+    font-family:
+	'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.nok {
+    display: inline-block;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+form .alert,
+	form .process
+	{
+	    display: none;
+	}
+
+@media screen and (max-width: 767px) {
+    .button_wstecz {
+	margin-left: 80px;
+    }
+
+    .buttonsubmit {
+	margin-right: 80px;
+    }    
+    
+}
+
+@media screen and (max-width: 573px) {
+    #login {
+    margin: 25px 0 0 0;
+	}
+	
+	#logout {
+    margin-top: 28px;
+	}
+	
+	#step {
+    margin-top: 60px;
+
+	}
+}
